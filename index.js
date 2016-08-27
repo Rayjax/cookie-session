@@ -13,7 +13,7 @@
  */
 
 var debug = require('debug')('cookie-session');
-var Cookies = require('cookies');
+var Cookies = require('./cookies');
 var onHeaders = require('on-headers');
 
 /**
